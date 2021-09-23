@@ -8,16 +8,21 @@ Estrutura de pastas:
 * Nome: Bruno Henrique Emidio Leite RA: 214017
 
 ## Tarefa de Cypher sobre Marcadores e Taxonomia
+
 ## Tarefa 1
 
 Escreva em Cypher uma consulta que retorne os marcadores da categoria Serviços, sem considerar as categorias subordinadas
 
-## Resolução
+### Resolução
+~~~cypher
+MATCH (m1:Marcador) MATCH (c1:Categoria {id:"Serviços"}) WHERE (m1)-[:Pertence]->(c1) RETURN m1
+~~~
 
-  MATCH (m1:Marcador) MATCH (c1:Categoria {id:"Serviços"}) WHERE (m1)-[:Pertence]->(c1) RETURN m1
-  
 ## Tarefa 2
 
 Escreva em Cypher uma consulta que retorne os marcadores da categoria Serviços, considerando as categorias subordinadas.
 
+### Resolução
+ ~~~cypher
 MATCH (m1:Marcador) MATCH (c1:Categoria) MATCH (c2:Categoria {id:"Serviços"}) WHERE (c1)-[:Superior]->(c2) AND  (m1)-[:Pertence]->(c1) OR (m1)-[:Pertence]->(c2) RETURN m1
+~~~
