@@ -11,9 +11,9 @@ Estrutura de pastas:
 
 # Análise do Artigo "Beyond Tears and Smiles with ReactSet: Records of Users' Emotions in Facebook Posts"
 
-|     campo     |       valor                                                                  |   
-| -----------   | -----------                                                                  |   
-| referência    |        reff                                                                  |  
+|     campo     |       valor                                                                                                                                     |   
+| -----------   | -----------                                                                                                                                     |   
+| referência    | CAZZOLATO, Mirela et al. Beyond Tears and Smiles with ReactSet: Records of Users’ Emotions in Facebook Posts. SBBD, Fortaleza, out. 2019 p 1-11 |                                                    
 | link          | https://drive.google.com/file/d/1NoOT3YbCe0irD6c0-xZgRHLc0xNBIlrg/view       |  
 | dataset       | https://github.com/mtcazzolato/reactset                                      |  
 | formato       | CSV                                                                          |  
