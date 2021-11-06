@@ -14,7 +14,7 @@ Estrutura de pastas:
 ![Grafo de Conhecimento](images/grafo_conhecimento.png)
 
 O modelo de grafo de conhecimento teria as três triplas indicadas acima, em que o recurso poderia variar entre "Crime", "Posto Policial" e "Poste de Iluminação" enquanto a propriedade e valor seriam iguais para os três: "Localizado" e "Bairro", respectivamente.
-Além disso, nos bairros foram adicionados os nós literais "Média de crimes diários mensais" e "Média de crimes noturnos mensais", os quais facilitariam a visualização para os casos de iluminação pública falha. Nos crimes, foi adicionado o "Perído do dia", facilitand a diferenciação dos crimes mais comuns diários e noturnos. oAlém disso, é adicionado o nó literal "Númeor de crimes próximos" para a visualização dos postos que possuem mais crimes em suas redondezas.
+Nos bairros foram adicionados os nós literais "Média de crimes diários mensais" e "Média de crimes noturnos mensais", os quais facilitariam a visualização para os casos de iluminação pública falha. Nos crimes, foi adicionado o "Perído do dia", facilitando a diferenciação dos crimes mais comuns diários e noturnos. Além disso, é adicionado o nó literal "Número de crimes próximos" para a visualização dos postos que possuem mais crimes em suas redondezas.
 
 ## Perguntas de pesquisas
 
