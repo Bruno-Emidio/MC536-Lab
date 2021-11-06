@@ -4,17 +4,21 @@
 
   ├── README.md  <- apresentação do aluno   
   │  
-  ├── lab01      <- primeiro lab   
+  ├── lab01    <- primeiro lab   
   │  
-  ├── lab02      <- segundo lab  
+  ├── lab02    <- segundo lab  
   │   
-  ├── lab03     <- terceiro lab  
+  ├── lab03    <- terceiro lab  
   │  
-  ├── lab04     <- quarto lab  
+  ├── lab04    <- quarto lab  
   │  
-  ├── lab05     <- quinto lab  
+  ├── lab05    <- quinto lab  
   │  
   └── lab06    <- sexto lab  
+  │  
+  └── lab07    <- sétimo lab  
+  │  
+  └── lab09    <- nono lab  
 
 
 ## Aluno
